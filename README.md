@@ -9,6 +9,7 @@ Upstream project: https://github.com/jplana/mermaid-cli-playwright
 - Run `mmdc`: `nix run . -- -i input.mmd -o output.svg`
 - Build package: `nix build .`
 - Show help: `nix run . -- -h`
+- Run without cloning: `nix run github:jplana/mermaid-cli-playwright-flake -- -i input.mmd -o output.svg`
 
 ## Update upstream
 
